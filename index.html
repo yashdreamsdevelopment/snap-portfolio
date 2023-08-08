@@ -11,10 +11,16 @@
   <link rel="stylesheet" href="./assets//styles/root.css">
   <link rel="stylesheet" href="./assets/styles/style.css">
 
+  <script src="./assets/js/script.js" defer></script>
+
   <title>Frontend Mentor | Intro section with dropdown navigation</title>
 </head>
 
 <body>
+  <!-- overlay -->
+  <div id="overlay" class="overlay"></div>
+
+  <!-- header -->
   <header>
     <div id="NavbarContainer">
       <!-- logo -->
@@ -22,7 +28,7 @@
         <img src="./assets/images/logo.svg" alt="snap branding logo">
       </div>
       <!-- navbar -->
-      <nav id="Navbar">
+      <nav id="Navbar" class="navbar">
         <!-- navbar menu -->
         <ul id="Navbar__menu" class="navmenu">
           <li class="menu-item">
@@ -111,6 +117,7 @@
     </div>
   </header>
 
+  <!-- main -->
   <main>
     <!-- hero section -->
     <section class="section" id="Hero">
